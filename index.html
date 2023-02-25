@@ -39,12 +39,33 @@
       .navbar .nav-link {
         color: #fff !important;
       }
+
+                      
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+}
+    
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    /*background-color: #4285F4; */
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
     </style>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
       <div class="container-fluid">
-        <!-- Navbar brand -->
+        
         <a class="navbar-brand nav-link">
           <strong>Lydia Tutors</strong>
         </a>
@@ -67,13 +88,16 @@
             <li class="nav-item">
                 <a class="nav-link" href="#courses">Courses</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonies">Testimonies</a>
+              </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact_us">Contact Us</a>
               </li>
           </ul>
 
           <ul class="navbar-nav d-flex flex-row">
-            <!-- Icons -->
+             
             <li class="nav-item me-3 me-lg-0">
               <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
                 target="_blank">
@@ -98,7 +122,76 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>Lydia Tutors</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+              </li>
+          </ul>
+      </div> -->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_us" rel="nofollow"
+              >About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our_services">Our Offerings</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonies">Testimonies</a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact_us">Contact Us</a>
+            </li>
+        </ul>
+
+        <!-- <ul class="navbar-nav d-flex flex-row">
+           
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+              target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul> -->
+      </div>
+  </nav>
     <!-- Navbar -->
 
     <!-- Background image -->
@@ -107,7 +200,7 @@
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
           <div class="text-white">
             <h1 class="mb-3">Welcome to Lydia Tutors</h1>
-            <h5 class="mb-4">Our premier tutoring company for University of Cape Town students provides expert tutors selected from top-performing UCT students and graduates, offering personalized one-on-one sessions to help students achieve their academic goals.</h5>
+            <h5 class="mb-4">Our premier tutoring company for University of Cape Town students provides expert tutors selected from top-performing UCT students and graduates, offering personalized one-on-one sessions to help students achieve their academic goals at an affordable price.</h5>
             <a class="btn btn-outline-light btn-lg m-2" href="https://wa.me/27679240455?text=Hey, I need to enquire about your services?" role="button" target="_blank"
               rel="nofollow" target="_blank">WhatsApp Our Agents</a>
             <a class="btn btn-outline-light btn-lg m-2" href="#contact_us"
@@ -176,7 +269,7 @@
               <div class="card-body">
                 <h5 class="card-title">Personalized One-on-One Tutoring</h5>
                 <p class="card-text">
-                  Expert UCT tutors offer one-on-one guidance for a personalized approach to improve your academic performance. From foundational to advanced courses, get help with coursework, exam prep, and difficult concepts.</p><a href="#!" class="btn btn-primary">learn more</a>
+                  Expert UCT tutors offer one-on-one guidance for a personalized approach to improve your academic performance. From foundational to advanced courses, get help with coursework, exam prep, and difficult concepts.</p>
               </div>
             </div>
           </div>
@@ -193,7 +286,7 @@
                 <h5 class="card-title">Small Group Tutoring</h5>
                 <p class="card-text">
                   Collaborate with fellow UCT students in our small group tutoring sessions. Our expert tutors provide guidance and teamwork skills for academic success.</p>
-                <a href="#!" class="btn btn-primary">learn more</a>
+             
               </div>
             </div>
           </div>
@@ -210,7 +303,7 @@
                 <h5 class="card-title">Online Tutoring</h5>
                 <p class="card-text">
                   Access our expert UCT tutors from anywhere at any time with our flexible online tutoring sessions. Get the same level of guidance and support in a virtual classroom environment. </p>
-                <a href="#!" class="btn btn-primary">learn more </a>
+                <!-- <a href="#!" class="btn btn-primary">learn more </a> -->
               </div>
             </div>
           </div>
@@ -225,6 +318,9 @@
 
       <section class="text-center" id="courses">
         <h4 class="mb-5"><strong>UCT Courses We Tutor</strong></h4>
+        <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+          We tutor all Informaion Systems (INF) courses, and are always looking for different tutors to serve more students in different faculties.  
+        </p>
 
         <ul class="list-group">
             <li class="list-group-item active">First Year Courses</li>
@@ -261,6 +357,105 @@
       
       </section>
 
+      
+
+      <section id="testimonies" style="margin-top: 30px;">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mb-4">Testimonials</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+              Welcome to our testimonials section! Don't just take our word for it, hear from our satisfied students themselves. Below are a few testimonials from our past clients who have experienced our top-notch tutoring services for computer science and information systems. We're proud to have helped them achieve academic success, and we're confident that we can do the same for you.
+            </p>
+          </div>
+        </div>
+      
+        <div class="row text-center">
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                class="rounded-circle shadow-1-strong" width="150" height="150" />
+            </div>
+            <h5 class="mb-3">Maria Smantha</h5>
+            <h6 class="text-primary mb-3">Computer Science Graduate (UCT)</h6>
+            <p class="px-xl-3">
+              <i class="fas fa-quote-left pe-2"></i>I struggled with programming concepts until I started tutoring with this company. The tutors were patient and knowledgeable, and I saw an immediate improvement in my grades
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                class="rounded-circle shadow-1-strong" width="150" height="150" />
+            </div>
+            <h5 class="mb-3">Lisa Cudrow</h5>
+            <h6 class="text-primary mb-3">Final Year Mathematics and Information Systems (UCT)</h6>
+            <p class="px-xl-3">
+              <i class="fas fa-quote-left pe-2"></i>I was hesitant to try online tutoring, but this company exceeded my expectations. The sessions were well-structured and personalized, and I always left feeling more confident about the material.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                class="rounded-circle shadow-1-strong" width="150" height="150" />
+            </div>
+            <h5 class="mb-3">John Smith</h5>
+            <h6 class="text-primary mb-3">2nd Year Computer Science and Statistics (UCT)</h6>
+            <p class="px-xl-3">
+              <i class="fas fa-quote-left pe-2"></i>The tutors at this company helped me grasp complex computer science topics that I never thought I could understand. Their expertise and guidance were instrumental in my academic success.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fas fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="far fa-star fa-sm text-warning"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     
       <!--Section: Content-->
 
